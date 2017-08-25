@@ -11,7 +11,7 @@ swiper image{
 
 /* icon-list */
 .icon-list{
-  padding-top: 20rpx;
+  
 }
 .function-list{
   width: 100%;
@@ -24,7 +24,6 @@ swiper image{
   float: left;  
   clear:right;
   width: 200rpx;
-  background-color: rebeccapurple;
 }
 .function-middle{ 
   display: flex;
@@ -34,7 +33,6 @@ swiper image{
   float: left;
   clear:right;  
   width: 200rpx;
-  background-color: red;
 }
 .function-right{ 
   display: flex;
@@ -44,7 +42,6 @@ swiper image{
   float: left;  
   clear:right;
   width: 200rpx;
-  background-color: gold;
 }
 .function-logo{
   width: 100%;

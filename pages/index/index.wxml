@@ -29,9 +29,29 @@
         <image class='function-logo' src='/images/task_fill.png'></image>
         <text class='intro'>准备活动</text>
       </view>
-    </navigator>
-    
-    
+    </navigator>      
   </view>
 
+  <view class="function-list">
+    <navigator url='../activity/activity'>
+      <view class='function-left'>
+        <image class='function-logo' src='/images/run.png'></image>
+        <text class='intro'>定向测试</text>
+      </view>
+    </navigator>
+    
+    <navigator url='../login/login'>
+      <view class='function-middle'>
+        <image class='function-logo' src='/images/group_fill.png'></image>
+        <text class='intro'>用户登录</text>
+      </view>      
+    </navigator>
+    
+    <navigator url='../warmUp/warmUp'>
+      <view class='function-right'>
+        <image class='function-logo' src='/images/task_fill.png'></image>
+        <text class='intro'>准备活动</text>
+      </view>
+    </navigator>      
+  </view>
 </view>

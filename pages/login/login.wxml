@@ -1,13 +1,21 @@
 <!--pages/login/login.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname" >{{userInfo.nickName}}</text>
-    </block>
+<view class='whole'>
+<view class='container'>
+  <view class='header'>
+    <text>定向教学辅助系统</text>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">Welcome!</text>
-  </view>
+    <view class='section'>
+      <text>帐号：</text>
+      <input type='number' placeholder='请输入帐号' bindinput='userInput' />
+    </view>
+    <view class='section'>
+      <text>密码:</text>
+      <input password='true' placeholder='请输入密码' bindinput='passwordInput' />
+    </view>
+    <view class='button'>
+      <button type='primary' bindtap='login'>登录</button>
+    </view>
+  
 </view>
+</view>
+

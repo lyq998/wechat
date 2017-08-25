@@ -6,7 +6,8 @@
     "pages/introduction/introduction",
     "pages/login/login",
     "pages/warmUp/warmUp",
-    "pages/CallOver/CallOver"
+    "pages/CallOver/CallOver",
+    "pages/activity/activity"
   ],
   "window":{
     "backgroundTextStyle":"light",

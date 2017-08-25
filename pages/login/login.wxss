@@ -1,21 +1,25 @@
 /* pages/login/login.wxss */
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+form{
+  width: 310px;
+  height: 240px;
+  line-height: 40px;
+  /* border: 1px solid red;  */
+}
+input{
+  border: 1px solid #ccc;
+  width: 310px;
+  height: 40px;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.button{
+  margin-top: 20px;
+}
+.header text{
+  font-size: 25px;
+  color: #666;
+}
+form text{
+  font-size: 20px;
+  color: #666;
 }
 
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
-}
