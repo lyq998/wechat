@@ -8,3 +8,41 @@ swiper image{
   width: 100%;
   height:100%;
 }
+
+/* icon-list */
+.icon-list{
+  padding-top: 20rpx;
+}
+.function-list{
+  overflow: hidden;
+}
+.function-logo1{
+  float: left;  
+  width: 200rpx;
+  height: 200rpx;
+}
+.function-logo2{ 
+  margin-left: 10%;
+  width: 200rpx;
+  height: 200rpx;
+}
+.function-logo3{  
+  float:right;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.introduction-list{
+  overflow: hidden;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.intro1{
+  float: left;
+}
+.intro2{
+  margin-left: 30%;
+}
+.intro3{
+  float: right;
+}

@@ -10,7 +10,34 @@
 
 <view class="icon-list">
   <view class="function-list">
-    <image></image>
-    <view class="select-page"></view>
+    <image class='function-logo1' src='/images/flag_fill.png'></image>
+    <image class='function-logo2' src='/images/group_fill.png'></image>
+    <image class='function-logo3' src='/images/task_fill.png'></image>
+  </view>
+  <view class='introduction-list'>
+    <text class='intro1'>简介1</text>
+    <text class='intro2'>简介1</text>
+    <text class='intro3'>简介1</text>
+  </view>
+
+  <view class="function-list">
+    <image class='function-logo1' src='/images/flag_fill.png'></image>
+    <image class='function-logo2' src='/images/group_fill.png'></image>
+    <image class='function-logo3' src='/images/task_fill.png'></image>
+  </view>
+  <view class='introduction-list'>
+    <text class='intro1'>简介1</text>
+    <text class='intro2'>简介1</text>
+    <text class='intro3'>简介1</text>
+  </view>
+  <view class="function-list">
+    <image class='function-logo1' src='/images/flag_fill.png'></image>
+    <image class='function-logo2' src='/images/group_fill.png'></image>
+    <image class='function-logo3' src='/images/task_fill.png'></image>
+  </view>
+  <view class='introduction-list'>
+    <text class='intro1'>简介1</text>
+    <text class='intro2'>简介1</text>
+    <text class='intro3'>简介1</text>
   </view>
 </view>
