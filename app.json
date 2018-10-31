@@ -1,12 +1,16 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/introduction/introduction",
+    "pages/login/login",
+    "pages/warmUp/warmUp"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#81D8D0",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "定向教学系统",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
@@ -24,7 +28,7 @@
       "selectedIconPath": "images/task_fill.png"
     },
     {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/about/about",
       "text": "about",
       "iconPath": "images/feedback.png",
       "selectedIconPath": "images/feedback_fill.png"

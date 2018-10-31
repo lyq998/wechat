@@ -3,41 +3,35 @@
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
-      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      <image src="{{item}}" class="slide-image" width="355" height="200"/>
     </swiper-item>
   </block>
 </swiper>
 
 <view class="icon-list">
   <view class="function-list">
-    <image class='function-logo1' src='/images/flag_fill.png'></image>
-    <image class='function-logo2' src='/images/group_fill.png'></image>
-    <image class='function-logo3' src='/images/task_fill.png'></image>
-  </view>
-  <view class='introduction-list'>
-    <text class='intro1'>简介1</text>
-    <text class='intro2'>简介1</text>
-    <text class='intro3'>简介1</text>
+    <navigator url='../introduction/introduction'>
+      <view class='function-left'>
+        <image class='function-logo' src='/images/flag_fill.png'></image>
+        <text class='intro'>简介界面</text>
+      </view>
+    </navigator>
+    
+    <navigator url='../login/login'>
+      <view class='function-middle'>
+        <image class='function-logo' src='/images/group_fill.png'></image>
+        <text class='intro'>用户登录</text>
+      </view>      
+    </navigator>
+    
+    <navigator url='../warmUp/warmUp'>
+      <view class='function-right'>
+        <image class='function-logo' src='/images/task_fill.png'></image>
+        <text class='intro'>准备活动</text>
+      </view>
+    </navigator>
+    
+    
   </view>
 
-  <view class="function-list">
-    <image class='function-logo1' src='/images/flag_fill.png'></image>
-    <image class='function-logo2' src='/images/group_fill.png'></image>
-    <image class='function-logo3' src='/images/task_fill.png'></image>
-  </view>
-  <view class='introduction-list'>
-    <text class='intro1'>简介1</text>
-    <text class='intro2'>简介1</text>
-    <text class='intro3'>简介1</text>
-  </view>
-  <view class="function-list">
-    <image class='function-logo1' src='/images/flag_fill.png'></image>
-    <image class='function-logo2' src='/images/group_fill.png'></image>
-    <image class='function-logo3' src='/images/task_fill.png'></image>
-  </view>
-  <view class='introduction-list'>
-    <text class='intro1'>简介1</text>
-    <text class='intro2'>简介1</text>
-    <text class='intro3'>简介1</text>
-  </view>
 </view>

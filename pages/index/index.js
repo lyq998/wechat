@@ -14,8 +14,10 @@ Page({
     interval: 5000,
     duration: 1000
   },
+
   //事件处理函数
   onLoad:function(){
 
   }
 })
+
