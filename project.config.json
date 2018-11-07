@@ -40,8 +40,9 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "warmup",
-					"pathName": "pages/warmUp/warmUp"
+					"name": "点名",
+					"pathName": "pages/CallOver/CallOver",
+					"query": ""
 				}
 			]
 		}

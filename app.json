@@ -5,7 +5,8 @@
     "pages/about/about",
     "pages/introduction/introduction",
     "pages/login/login",
-    "pages/warmUp/warmUp"
+    "pages/warmUp/warmUp",
+    "pages/CallOver/CallOver"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -22,7 +23,7 @@
       "selectedIconPath": "images/homepage_fill.png"
     },
     {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/CallOver/CallOver",
       "text": "task",
       "iconPath": "images/task.png",
       "selectedIconPath": "images/task_fill.png"

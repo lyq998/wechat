@@ -1,0 +1,22 @@
+/* pages/CallOver/CallOver.wxss */
+.section{
+  height: 100rpx;
+  border: solid#f00; 
+  border-radius: 40rpx;
+  text-align: center;
+  width: 90%;
+  margin: 5%;
+}
+.buttonlist{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.student-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.student-item {
+  margin: 10rpx;
+}

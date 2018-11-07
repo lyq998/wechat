@@ -1,0 +1,24 @@
+<!--pages/CallOver/CallOver.wxml-->
+<view>
+  添加学生
+</view>
+
+<view class='section'>
+  <textarea auto-height value='{{inputValue}}' bindinput='getInput' placeholder="请输入学生姓名" />
+</view>
+
+<view class='buttonlist'>
+  <button bindtap='resetbox'>
+    重置
+  </button>
+  <button bindtap='insert'>
+    添加
+  </button>
+</view>
+
+<view class='container student-list'>
+  <block wx:for="{{classmates}}" wx:for-item="student">
+  <!--wx:for-item="log"的意思是指定item名字为log-->
+    <text class="student-item">{{index + 1}}. {{student}}</text>
+  </block>
+</view>
