@@ -1,11 +1,20 @@
-<view>
-  <view>
-    作者：刘渝桥，李景煜
+<view class='block'>
+  <image class='banner' src='/images/title.jpg'></image>
+
+  <view class='block-title'>
+    关于作者
   </view>
-  <view>
-    四川大学2016级
+  <view class='block-desc'>
+    刘渝桥，四川大学2016级计算机学院本科生，爱好扫雷，学号：2016141462304
   </view>
-  <view>
-    2018年下学期作
+  <view class='block-desc'>
+    李景煜，四川大学2016级计算机学院本科生，爱好王者荣耀，学号：2016141462171
+  </view>
+
+  <view class='block-title'>
+    关于作品
+  </view>
+  <view class='block-desc'>
+    为了改进学校定向课的评测于2018年下学期制作
   </view>
 </view>

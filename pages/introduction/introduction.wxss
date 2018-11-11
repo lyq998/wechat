@@ -1,1 +1,31 @@
 /* pages/introduction/introduction.wxss */
+.banner{
+  display: block;
+  width: 100%;
+}
+.block{
+  background: #fff;
+}
+.block-title{
+  position: relative;
+  font-size: 40rpx;
+  line-height: 1.5;
+  color: #81D8D0;
+  padding: 10rpx 20rpx;
+  text-indent: 40rpx;
+}
+.block-title::after{
+  position: absolute;
+  left: 10rpx;
+  top:4rpx;
+  width: 10rpx;
+  height: 60rpx;
+  content: "";
+  background: #81D8D0;
+}
+.block-desc{
+  display: block;
+  line-height: 1.6;
+  padding: 0 30rpx 30rpx;
+  color: #666;
+}

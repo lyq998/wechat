@@ -1,4 +1,8 @@
 /* pages/CallOver/CallOver.wxss */
+.header{
+  text-align: center;
+  font-size: 50rpx;
+}
 .section{
   height: 100rpx;
   border: solid#f00; 
@@ -16,7 +20,19 @@
   display: flex;
   flex-direction: column;
   padding: 40rpx;
+  background-color: gray;
 }
 .student-item {
   margin: 10rpx;
+}
+.randomCall{
+  position: center;
+  height: 300rpx;
+  font-size: 70rpx;
+  text-align: center;
+  border: solid;
+  border-color: black;
+}
+.callbox{
+  margin: 50rpx;
 }
