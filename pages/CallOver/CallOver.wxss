@@ -36,3 +36,7 @@
 .callbox{
   margin: 50rpx;
 }
+.picker{
+  margin-bottom: 30rpx;
+  background: rgb(231, 24, 24);
+}

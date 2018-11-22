@@ -1,5 +1,12 @@
 <!--pages/CallOver/CallOver.wxml-->
 <view class='header'>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{classarray}}">
+    <view class="picker">
+      当前选择：{{classarray[index]}}
+    </view>
+  </picker>
+</view>
+<view class='header'>
   添加学生
 </view>
 
