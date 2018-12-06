@@ -1,1 +1,15 @@
 /* pages/activity/activity.wxss */
+.buttons{
+  padding: 50rpx;
+}
+.finish-button{
+  width: 536rpx;
+  height: 94rpx;       
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 5rpx;
+  vertical-align: middle;
+  font-size: 32rpx;
+  background-color:  rgb(6, 154, 240);
+  border-radius: 50rpx;
+}

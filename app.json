@@ -1,5 +1,5 @@
 {
-  "pages": [
+  "pages":[
     "pages/activity/activity",
     "pages/index/index",
     "pages/logs/logs",
