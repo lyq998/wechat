@@ -127,12 +127,20 @@ Page({
       sum +=count[i];
     }
     if(sum==60){
-    wx.showToast({
-      title: 'Congratulations!',
-    })
-    wx.switchTab({
-      url: '/pages/index/index',
-    })
+      wx.showToast({
+        title: 'Congratulations！',
+        icon: 'success',
+        duration: 2000,
+        success: function () {
+          console.log('haha');
+          setTimeout(function () {
+            //要延时执行的代码
+            wx.switchTab({
+              url: '/pages/index/index'
+            })
+          }, 2000) //延迟时间
+        }
+      })
   }
   }
 })
