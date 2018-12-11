@@ -3,45 +3,53 @@
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{classarray}}">
     <view class="picker">
       当前选择：{{classarray[index]}}
+      <image class="type-icon" src="http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/pickerArrow-a8b918f05f.png"></image>
     </view>
   </picker>
 </view>
-<view class='header'>
+
+
+<view class='sectionContainer'>
+  <view class='header'>
   添加学生
-</view>
+  </view>
 
-<view class='section'>
-  <textarea auto-height value='{{inputValue}}' bindinput='getInput' placeholder="请输入学生姓名" />
-</view>
+  <view class='section'>
+  <textarea auto-height value='{{inputValue}}' bindinput='getInput' placeholder="请输入学生姓名" placeholder-class="placeholderStyle"/>
+  </view>
 
-<view class='buttonlist'>
+  <view class='buttonlist'>
   <button bindtap='resetbox'>
     重置
   </button>
   <button bindtap='insert'>
     添加
   </button>
+  </view>
 </view>
 
-<view class='callbox'>
-  <view class='header'>
-    开始点名
-  </view>
-  <view class='randomCall'>
-    <text>
-      {{random+1}}.{{classmates[random]}}
-    </text>
-  </view>
-  
-  <view class='buttonlist'>
-    <button bindtap='start'> 
-      开始
-    </button>
-    <button bindtap='clear'> 
-      清空学生
-    </button>
+<view class='callboxContainer'>
+  <view class='callbox'>
+    <view class='header'>
+      开始点名
+    </view>
+    <view class='randomCall'>
+      <text>
+        {{random+1}}.{{classmates[random]}}
+      </text>
+    </view>
+    
+    <view class='buttonlist'>
+      <button bindtap='start' style="background:red;color:white"> 
+        开始点名
+      </button>
+      <button bindtap='clear'> 
+        清空学生
+      </button>  
+    </view>
   </view>
 </view>
+
 
 <scroll-view scroll-y style="height: 200px;">
   <view class='student-list'>

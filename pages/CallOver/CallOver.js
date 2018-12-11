@@ -58,14 +58,24 @@ Page({
   },
   //清空学生
   clear :function(){
-    wx.removeStorage({
-      key: this.data.state,
-      success: function(res) {
-        wx.showToast({
-          title: '清除成功',
-        })
-      },
-    });
+    wx.showModal({
+      title: '提示',
+      content: '您确定要清空学生吗？',
+      success: function (res) {
+        if (res.confirm) {//这里是点击了确定以后
+          wx.removeStorage({
+            key: this.data.state,
+            success: function (res) {
+              wx.showToast({
+                title: '清除成功',
+              })
+            },
+          })
+        } else {//这里是点击了取消以后
+          console.log('用户点击取消')
+        }
+      }
+    })
     this.updateClassmates()
   },
   //更新data中classmates
