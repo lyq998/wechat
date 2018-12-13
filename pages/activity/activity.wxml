@@ -8,3 +8,7 @@
   show-location
   bindmarkertap='markertap'
 ></map>
+<view class='buttons'>
+<view>{{data.timer}}</view>
+  <button class='finish-button' bindtap='finishtap'>完成</button>
+</view>

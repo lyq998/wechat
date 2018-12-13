@@ -1,25 +1,75 @@
-/* pages/login/login.wxss */
-form{
-  width: 310px;
-  height: 240px;
-  line-height: 40px;
-  /* border: 1px solid red;  */
-}
-input{
-  border: 1px solid #ccc;
-  width: 310px;
-  height: 40px;
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  background-size: cover;
+  z-index: -1;
 }
 
-.button{
-  margin-top: 20px;
+.prapaganda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 250rpx;
 }
-.header text{
-  font-size: 25px;
-  color: #666;
+.name{
+  line-height:400rpx;
 }
-form text{
+.prapaganda image {
+  margin-top: 230rpx;
+  width: 188rpx;
+  height: 188rpx;
+  /* border-radius: 100%; */
+}
+
+.prapaganda text {
+  word-spacing: 20rpx;
   font-size: 20px;
-  color: #666;
+  font-weight: 400;
+  color: #ffffff;
 }
 
+.control-group {
+  margin-top: 100rpx;
+}
+
+.control {
+  width: 475rpx;
+  height: 60rpx;
+  margin: 40rpx auto;
+  font-size: 32rpx;
+  padding-left: 50rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  border: 4rpx solid rgb(255, 255, 255);
+  border-radius: 70rpx;
+  background-color: aliceblue;
+  opacity: 0.6;
+}
+
+.input-placeholder {
+  margin-left: 0rpx;
+  color: #1B3863;
+  height: 52.5rpx;
+  line-height: 52.5rpx;
+}
+
+.login-button {
+  width: 536rpx;
+  height: 94rpx;       
+  margin-top: 80rpx;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 5rpx;
+  vertical-align: middle;
+  font-size: 32rpx;
+  background-color:  #1D77FE;
+  border-radius: 50rpx
+} 
+
+.login-button-hover{
+  background-color: blue;
+}

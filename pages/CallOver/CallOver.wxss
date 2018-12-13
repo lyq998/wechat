@@ -38,9 +38,9 @@ page{
   height: 300rpx;
   font-size: 70rpx;
   text-align: center;
-  border: solid;
-  border-color: black;
   margin-top: 30rpx;
+  background-image: url('http://pic.qiantucdn.com/10/18/95/88bOOOPIC3e.jpg!qt780');
+  background-size: 100% 100%;
 }
 .callboxContainer{
   background: #fff;
@@ -59,4 +59,36 @@ page{
 .placeholderStyle{
   text-align: center;
   font-size: 40rpx;
+}
+.this-button {
+  width: 40%;
+  height: 94rpx;       
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 5rpx;
+  vertical-align: middle;
+  font-size: 32rpx;
+  background-color:  #1D77FE;
+  border-radius: 50rpx
+} 
+.start-button {
+  width: 40%;
+  height: 94rpx;       
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 5rpx;
+  vertical-align: middle;
+  font-size: 32rpx;
+  background-color:  #f00;
+  border-radius: 50rpx
+} 
+.banner{
+  display: block;
+  width: 100%;
+  height: 250rpx;
+}
+.callName{
+  font-family: kaiti;
+  font-weight: 500;
+  color:rgb(3, 40, 97);
 }

@@ -1,4 +1,5 @@
 <!--pages/CallOver/CallOver.wxml-->
+<image class='banner' src='/images/callover_title.png'></image>
 <view class='header'>
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{classarray}}">
     <view class="picker">
@@ -15,14 +16,14 @@
   </view>
 
   <view class='section'>
-  <textarea auto-height value='{{inputValue}}' bindinput='getInput' placeholder="请输入学生姓名" placeholder-class="placeholderStyle"/>
+  <input value='{{inputValue}}' bindinput='getInput' placeholder="请输入学生姓名" placeholder-class="placeholderStyle"/>
   </view>
 
   <view class='buttonlist'>
-  <button bindtap='resetbox'>
+  <button class='this-button' bindtap='resetbox'>
     重置
   </button>
-  <button bindtap='insert'>
+  <button class='this-button' bindtap='insert'>
     添加
   </button>
   </view>
@@ -34,24 +35,23 @@
       开始点名
     </view>
     <view class='randomCall'>
-      <text>
+      <text class='callName'>
         {{random+1}}.{{classmates[random]}}
       </text>
-    </view>
-    
-    <view class='buttonlist'>
-      <button bindtap='start' style="background:red;color:white"> 
+    </view>   
+  </view>
+  <view class='buttonlist'>
+      <button bindtap='start' class='start-button'> 
         开始点名
       </button>
-      <button bindtap='clear'> 
+      <button bindtap='clear' class='this-button'> 
         清空学生
       </button>  
-    </view>
   </view>
 </view>
 
 
-<scroll-view scroll-y style="height: 200px;">
+<scroll-view scroll-y style="height: 200px;margin-top:50rpx;">
   <view class='student-list'>
     <text> 学生信息：</text>
     <block wx:for="{{classmates}}" wx:for-item="student">
