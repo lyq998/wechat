@@ -43,14 +43,14 @@
     <navigator url='../login/login'>
       <view class='function-middle'>
         <image class='function-logo' src='/images/group_fill.png'></image>
-        <text class='intro'>用户登录</text>
+        <text class='intro'>敬请期待</text>
       </view>      
     </navigator>
     
     <navigator url='../warmUp/warmUp'>
       <view class='function-right'>
         <image class='function-logo' src='/images/task_fill.png'></image>
-        <text class='intro'>准备活动</text>
+        <text class='intro'>敬请期待</text>
       </view>
     </navigator>      
   </view>
