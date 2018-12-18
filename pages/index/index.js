@@ -10,7 +10,7 @@ Page({
       '/images/advertise2.jpg',
     ],
     indicatorDots: true,
-    autoplay: true,
+    autoplay: false,
     interval: 5000,
     duration: 1000
   },

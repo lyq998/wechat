@@ -36,12 +36,24 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
-					"name": "warmup",
-					"pathName": "pages/warmUp/warmUp"
+					"name": "点名",
+					"pathName": "pages/CallOver/CallOver",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "关于",
+					"pathName": "pages/about/about",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "定向",
+					"pathName": "pages/activity/activity"
 				}
 			]
 		}

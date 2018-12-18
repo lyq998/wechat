@@ -1,40 +1,41 @@
 {
   "pages":[
-    "pages/activity/activity",
     "pages/index/index",
+    "pages/activity/activity",
+    
     "pages/logs/logs",
     "pages/about/about",
     "pages/introduction/introduction",
     "pages/login/login",
-    "pages/warmUp/warmUp"
+    "pages/warmUp/warmUp",
+    "pages/CallOver/CallOver"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
+  "window":{
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#81D8D0",
     "navigationBarTitleText": "定向教学系统",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle":"black"
   },
   "tabBar": {
     "selectedColor": "#81D8D0",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "index",
-        "iconPath": "images/homepage.png",
-        "selectedIconPath": "images/homepage_fill.png"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "task",
-        "iconPath": "images/task.png",
-        "selectedIconPath": "images/task_fill.png"
-      },
-      {
-        "pagePath": "pages/about/about",
-        "text": "about",
-        "iconPath": "images/feedback.png",
-        "selectedIconPath": "images/feedback_fill.png"
-      }
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "index",
+      "iconPath": "images/homepage.png",
+      "selectedIconPath": "images/homepage_fill.png"
+    },
+    {
+      "pagePath": "pages/CallOver/CallOver",
+      "text": "task",
+      "iconPath": "images/task.png",
+      "selectedIconPath": "images/task_fill.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "about",
+      "iconPath": "images/feedback.png",
+      "selectedIconPath": "images/feedback_fill.png"
+    }
     ]
   }
 }

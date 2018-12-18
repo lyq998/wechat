@@ -1,6 +1,11 @@
 // pages/warmUp/warmUp.js
 Page({
-  onReady: function () {
-    
+  onLoad: function () {
+    wx.showLoading({
+      title: '视频加载中',
+    });
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 2000)
   }
 })

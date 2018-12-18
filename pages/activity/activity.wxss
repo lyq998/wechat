@@ -2,6 +2,11 @@
 .buttons{
   padding: 50rpx;
 }
+.score{
+  margin-top: 35rpx;
+  text-align: center;
+  font-size: 40rpx;
+}
 .finish-button{
   width: 536rpx;
   height: 94rpx;       
